@@ -240,7 +240,7 @@ const Left = () => {
                                         <span>
                                         <h5 className = "chat-name">Randy Davoh</h5>  
                                         <p className = "text-preview">
-                                        <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                        <CheckAll class = "received-check "/> haha..You are welcome bro.😎😎
                                                 </p>
                                         </span>
                                 </span> 
@@ -285,7 +285,7 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Mina </h5>  
                                  <p className = "text-preview">
-                                 😂😂😂😂😂 Come back
+                                 😂😂😂😂😂 Come back here right now
                                          </p>
                                  </span>
                          </span>    
@@ -326,7 +326,7 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Ella  <span role="img">💘💘</span> </h5>  
                                  <p className = "text-preview">
-                                 What do you think? <span role="img">🧐</span>
+                                 What do you think about it now?🧐🧐
                                          </p>
                                  </span>
                           </span> 
@@ -367,16 +367,16 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Bevelyn</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 <CheckAll class = "received-check "/> Don't worry later tomorrow
                                          </p>
                                  </span>
-                               
+                         </span>    
                                  <p class = "time-stamp">
-                                     06:19 <br /> 
+                                     11:35 <br /> 
                                     <span class ="time-stamp-dropdown">
-                                        <span className = "notification-count" style = {{backgroundColor: notificationColor4, display:notificationCount4, color:"black" }}>
+                                        {/* <span className = "notification-count" style = {{backgroundColor: notificationColor4, display:notificationCount4, color:"black" }}>
                                               8   
-                                         </span>
+                                         </span> */}
                                         
                                          <Dropdown>
                                         <Dropdown.Toggle style = {{display:dropdownIcon4}} id="dropdown-basic" class = "dropdown-toggle" >
@@ -396,7 +396,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                        
                  </div>
             </Link> 
             <hr />
@@ -409,16 +409,16 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Nioski</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 <CheckAll class = "received-check "/> It's too long 😂😂😂😂😂😂😂😂
                                          </p>
                                  </span>
-                               
+                       </span>     
                                  <p class = "time-stamp">
-                                     06:19 <br /> 
+                                     11:43 <br /> 
                                     <span class ="time-stamp-dropdown">
-                                        <span className = "notification-count" style = {{backgroundColor: notificationColor5, display:notificationCount5, color:"black" }}>
+                                        {/* <span className = "notification-count" style = {{backgroundColor: notificationColor5, display:notificationCount5, color:"black" }}>
                                               8   
-                                         </span>
+                                         </span> */}
                                         
                                          <Dropdown>
                                         <Dropdown.Toggle style = {{display:dropdownIcon5}} id="dropdown-basic" class = "dropdown-toggle" >
@@ -438,7 +438,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                        
                  </div> 
             </Link> 
             <hr />
@@ -450,15 +450,15 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Mummy<span role="img">💞</span></h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 Bring it along tonight okay?😂😂😂
                                          </p>
                                  </span>
-                               
+                        </span>      
                                  <p class = "time-stamp">
-                                     06:19 <br /> 
+                                     11:51 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor6, display:notificationCount6, color:"black" }}>
-                                              8   
+                                              3   
                                          </span>
                                         
                                          <Dropdown>
@@ -479,7 +479,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                         
                  </div>
             </Link> 
             <hr />
@@ -492,15 +492,16 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Tim</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 <CheckAll class = "received-check "/> Thank you. Let's about it soon.
                                          </p>
                                  </span>
                                
+                         </span>        
                                  <p class = "time-stamp">
-                                     06:19 <br /> 
+                                     12:01 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor7, display:notificationCount7, color:"black" }}>
-                                              8   
+                                              4 
                                          </span>
                                         
                                          <Dropdown>
@@ -521,7 +522,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                      
                  </div>
             </Link> 
             <hr />
@@ -533,12 +534,14 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Araba</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 Check these out when you can😘
                                          </p>
                                  </span>
                                
-                                 <p class = "time-stamp">
-                                     06:19 <br /> 
+                        </span>       
+                        
+                        <p class = "time-stamp">
+                                     12:19 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor8, display:notificationCount8, color:"black" }}>
                                               8   
@@ -562,7 +565,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                        
                  </div>
             </Link> 
             <hr />
@@ -574,16 +577,16 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Genevieve</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 <CheckAll class = "received-check "/> See you soon😇😇😇😇😇😇😇
                                          </p>
                                  </span>
-                               
+                         </span>      
                                  <p class = "time-stamp">
-                                     06:19 <br /> 
+                                     12:32 <br /> 
                                     <span class ="time-stamp-dropdown">
-                                        <span className = "notification-count" style = {{backgroundColor: notificationColor9, display:notificationCount9, color:"black" }}>
+                                        {/* <span className = "notification-count" style = {{backgroundColor: notificationColor9, display:notificationCount9, color:"black" }}>
                                               8   
-                                         </span>
+                                         </span> */}
                                         
                                          <Dropdown>
                                         <Dropdown.Toggle style = {{display:dropdownIcon9}} id="dropdown-basic" class = "dropdown-toggle" >
@@ -603,7 +606,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                        
                  </div>
             </Link> 
             <hr />
@@ -616,15 +619,16 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Isaac</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                  Let me know when you receive it.
                                          </p>
                                  </span>
                                
-                                 <p class = "time-stamp">
-                                     06:19 <br /> 
+                        </span>      
+                         <p class = "time-stamp">
+                                     13:43 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor10, display:notificationCount10, color:"black" }}>
-                                              8   
+                                              2   
                                          </span>
                                         
                                          <Dropdown>
@@ -645,7 +649,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                         
                  </div>
             </Link>  
             <hr />
@@ -660,16 +664,16 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Auntie Yaa</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> You are welcome <span role="img">😎</span>
+                                 <CheckAll class = "received-check "/> I don't want anyone to know😂.
                                          </p>
                                  </span>
-                               
+                        </span>      
                                  <p class = "time-stamp">
                                      06:19 <br /> 
                                     <span class ="time-stamp-dropdown">
-                                        <span className = "notification-count" style = {{backgroundColor: notificationColor11, display:notificationCount11, color:"black" }}>
+                                        {/* <span className = "notification-count" style = {{backgroundColor: notificationColor11, display:notificationCount11, color:"black" }}>
                                               8   
-                                         </span>
+                                         </span> */}
                                         
                                          <Dropdown>
                                         <Dropdown.Toggle style = {{display:dropdownIcon11}} id="dropdown-basic" class = "dropdown-toggle" >
@@ -689,7 +693,7 @@ const Left = () => {
                                        
                                  </p> 
                                 
-                         </span>
+                      
                  </div>
         </Link>  
 <hr />

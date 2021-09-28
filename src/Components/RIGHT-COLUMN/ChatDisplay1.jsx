@@ -1,5 +1,6 @@
 import React from 'react';
 import "./right.css"
+import Card from 'react-bootstrap/Card';
 
 import contactImg1 from "../../Images/1.jpeg"
 import { CheckAll} from 'react-bootstrap-icons';
@@ -14,7 +15,7 @@ const ChatDisplay1 = () => {
            <span class ="contact-img-name-last-seen">
              <img src={contactImg1} class ="contact-img" alt="" />
              <span>
-                <h4>Randy Davoh</h4>
+                <h4 class ="chat-contact-name">Randy Davoh</h4>
                 <span class ="last_seen">online</span>
              </span>
            
@@ -31,88 +32,120 @@ const ChatDisplay1 = () => {
 
         <br />
         <div class="row">
-            <div class="col-md-4 each_text_received">
-               How are you doing? <br />
-               <span className = "text-time-stamp">06:15</span>
-            </div>
+       
+            <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+            <Card.Body>
+    
+                <Card.Text>
+                How are you doing? <br />
+                </Card.Text>
+                <span className = "text-time-stamp">06:15</span>
+            </Card.Body>
+            </Card>
+             
         </div>
+
         <div class="row">
-            
-            <div class="col-md-6 offset-md-6 each_text_sent">
-                
+        
+            <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+            <Card.Body>
+    
+                <Card.Text>
                 I am awesome. Whatsapp? <br />
-                <span className = "text-time-stamp">06:15 <CheckAll className = "received-check"/></span>
+                </Card.Text>
+                <span className = "text-time-stamp">06:15<CheckAll className = "received-check"/></span>
+            </Card.Body>
+            </Card>
             
-            </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4 each_text_received">
-               I am good? <br />
-               <span className = "text-time-stamp">06:16</span>
+         
+            <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+            <Card.Body>
+    
+                <Card.Text>
+                I am good <br />
+                </Card.Text>
+                <span className = "text-time-stamp">06:16</span>
+            </Card.Body>
+            </Card>
             </div>
-        </div>
-        <div class="row">
-            
-            <div class="col-md-6 offset-md-6 each_text_sent">
-                
-               Thats good! <br />
-                <span className = "text-time-stamp">06:18 <CheckAll className = "received-check"/></span>
-            
-            </div>
-        </div>
+       
+
 
         <div class="row">
-            <div class="col-md-4 each_text_received">
-               I will return the car today <br />
-               <span className = "text-time-stamp">06:18</span>
-            </div>
-        </div>
-        <div class="row">
-            
-            <div class="col-md-6 offset-md-6 each_text_sent">
-                
-                Awesome, I will be home<br />
-                <span className = "text-time-stamp">06:18 <CheckAll className = "received-check"/></span>
-            
-            </div>
+            <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+            <Card.Body>
+    
+                <Card.Text>
+                Thats good! 
+                </Card.Text>
+                <span className = "text-time-stamp">06:17<CheckAll className = "received-check"/></span>
+            </Card.Body>
+            </Card>
         </div>
 
+
         <div class="row">
-            <div class="col-md-4 each_text_received">
-               Definitely, expect me at 1pm. <br />
-               <span className = "text-time-stamp">06:19</span>
-            </div>
+          
+            <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+            <Card.Body>
+                <Card.Text>
+                I will return the car today<br />
+                </Card.Text>
+                <span className = "text-time-stamp">06:18</span>
+            </Card.Body>
+            </Card>
+           
         </div>
+
+
+        <div class="row">      
+            <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+            <Card.Body>
+    
+                <Card.Text>
+               Awesome, I will be home
+                </Card.Text>
+                <span className = "text-time-stamp">06:19<CheckAll className = "received-check"/></span>
+            </Card.Body>
+            </Card>
+        </div>
+
+
+
+        <div class="row">
+            <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+            <Card.Body>
+    
+                <Card.Text>
+                Expect me at 5:30pm. Thanks so much bro.
+                </Card.Text>
+                <span className = "text-time-stamp">06:19</span>
+            </Card.Body>
+            </Card>
+        </div>
+
        <br />
 
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-               Thanks for the other time <br />
-               <span className = "text-time-stamp">06:19</span>
-            </div>
+      
+        <div class="row"> 
+           <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+            <Card.Body>
+    
+                <Card.Text>
+                haha..You are welcome bro.😎😎  
+                </Card.Text>
+                <span className = "text-time-stamp">06:19<CheckAll className = "received-check"/></span>
+            </Card.Body>
+            </Card>
         </div>
 
-        <div class="row">
-            
-            <div class="col-md-6 offset-md-6 each_text_sent">
-                
-               Definitely bro<br />
-                <span className = "text-time-stamp">06:19 <CheckAll className = "received-check"/></span>
-            
-            </div>
-        </div>
-        <br />
-        <div class="row">
-            
-            <div class="col-md-6 offset-md-6 each_text_sent">
-                
-               You are welcome <span role="img">😎</span><br />
-                <span className = "text-time-stamp">06:19 <CheckAll className = "received-check"/></span>
-            
-            </div>
-        </div>
-             
+     
+
+     
+      
             <Form>
             <Form.Group className="mb-3 send-message-form-box"   controlId="">
             <i class="far fa-grin-alt"></i>

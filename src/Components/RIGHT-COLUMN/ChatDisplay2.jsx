@@ -18,7 +18,7 @@ const ChatDisplay2 = () => {
            <span class ="contact-img-name-last-seen">
              <img src={contactImg2} class ="contact-img" alt="" />
              <span>
-                <h4>Mina</h4>
+                <h4 class ="chat-contact-name">Mina</h4>
                 <span class ="last_seen">last seen today at 12:19</span>
              </span>
            

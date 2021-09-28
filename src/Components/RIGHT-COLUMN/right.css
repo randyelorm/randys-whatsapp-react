@@ -42,9 +42,9 @@
 .each_text_received {
 
     margin: 1rem 1rem 0rem 5rem;
-    padding:0.7rem !important;
-    background-color:#2A2E32;
-    border-radius: 50px;
+
+    background-color:#2A2E32 !important;
+    border-radius: 50px !important;
     width: 250px !important;
 }
 
@@ -52,11 +52,15 @@
 .each_text_sent {
 
     margin:0% 0% 0% 43% !important;
-    padding:0.7rem !important;
-    background-color:#026162;
-    border-radius: 50px;
+
+    background-color:#026162 !important;
+    border-radius: 50px !important;
     width: 250px !important;
 }
+
+
+
+
 
 
 .text-time-stamp {
@@ -89,9 +93,14 @@
     border:none !important;
     border-radius: 100px !important;
     background-color: #323739 !important;
+    color:white !important;
 }
 
 
+
+.chat-contact-name {
+    color:white;
+}
 .chat-img {
     width: 300px;
     display: flex;

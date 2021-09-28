@@ -4,8 +4,9 @@
     background-size:cover;
     color:white;
     height:100vh !important;
-    background-color:#0D1418;
-    background-blend-mode: luminosity;
+    background-clip: fixed;
+   
+ 
     
 }
 
@@ -87,6 +88,7 @@
     display:flex;
     align-items: center;
     gap:0.8rem;
+    margin-top: 4rem !important;
 }
 .send-mesage-form {
 
@@ -94,9 +96,8 @@
     border-radius: 100px !important;
     background-color: #323739 !important;
     color:white !important;
+   
 }
-
-
 
 .chat-contact-name {
     color:white;

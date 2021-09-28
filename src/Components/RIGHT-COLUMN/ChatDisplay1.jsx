@@ -142,9 +142,11 @@ const ChatDisplay1 = () => {
             </Card>
         </div>
 
+     <br />
+     <br />
+     <br />
      
 
-     
       
             <Form>
             <Form.Group className="mb-3 send-message-form-box"   controlId="">

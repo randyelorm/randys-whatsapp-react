@@ -36,7 +36,8 @@
 }
 
 .contact-img-name-last-seen {
-    display:flex;
+    display:grid;
+    grid-template-columns:0fr 1fr;
     gap:1rem;
 }
 

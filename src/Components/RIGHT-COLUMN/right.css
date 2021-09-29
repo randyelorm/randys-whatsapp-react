@@ -30,7 +30,7 @@
 .chat-display-heading-icons {
     display:flex;
     align-items: center;
-    gap:2rem;
+    gap:2rem !important;
 }
 
 .contact-img-name-last-seen {

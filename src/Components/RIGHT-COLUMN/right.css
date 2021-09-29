@@ -52,9 +52,8 @@
 .each_text_received {
 
     margin: 1rem 1rem 0rem 5rem;
-
-    background-color:#2A2E32 !important;
-    border-radius: 50px !important;
+    background-color: #323739 !important;
+    border-radius: 20px !important;
     width: 250px !important;
 }
 
@@ -67,8 +66,9 @@
     margin:0% 0% 0% 43% !important;
 
     background-color:#026162 !important;
-    border-radius: 50px !important;
+    border-radius: 20px !important;
     width: 250px !important;
+    padding:0.5rem !important;
 }
 
 .last-text {
@@ -76,7 +76,46 @@
 }
 
 
+.img-text  {
+    padding:1rem !important;
+    border-radius: 20px !important;
+}
 
+
+.reply-box {
+ background-color: #2A2E32;
+ padding:0.5rem;
+ border-radius: 7px;
+ border-left: 4px solid #6BCBEF;
+}
+
+.You {
+    color:#6BCBEF;
+    font-weight: bold;
+}
+
+
+.reply-box-2 {
+    background-color: #065051;
+    padding:0.5rem;
+    border-radius: 7px;
+    border-left: 4px solid #36CC95;
+}
+
+.reply-body {
+    padding-top: 0rem !important;
+  
+}
+   
+.them {
+       color:#36CC95;
+       font-weight: bold;
+}
+
+
+.reply-text {
+    color:#CECFCF;
+}
 
 
 .text-time-stamp {
@@ -92,14 +131,18 @@
    color:#34AFE7;
 }
 
+.unread-check {
+    font-size: 1.4rem;
+    color: #6C757D;
+ }
 
 .send-message-form-box {
     background-color: #2A2E32!important;
     color: #6C757D;
     padding:1rem;
     position: absolute;
-    bottom:-15px;
-    width:67.5% !important;
+    bottom:-16px;
+    width:68% !important;
     display:flex;
     align-items: center;
     gap:0.8rem;
@@ -115,6 +158,12 @@
    
 }
 
+.send-mesage-form:focus {
+    outline:none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
 
 .chat-contact-name {
     color:white;
@@ -126,3 +175,7 @@
     align-items: center;
 }
 
+.sent-links {
+    text-decoration: underline !important;
+    color: #34AFE7 !important;
+}

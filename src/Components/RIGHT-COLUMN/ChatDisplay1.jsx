@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./right.css"
 import Card from 'react-bootstrap/Card';
 
@@ -7,6 +7,14 @@ import { CheckAll} from 'react-bootstrap-icons';
 import Form from 'react-bootstrap/Form';
 
 const ChatDisplay1 = () => {
+
+    const [microphoneicon, setMicphoneIcon] = useState( "fas fa-microphone")
+   
+    const handleIconChange = ()=> {
+        setMicphoneIcon("fab fa-google-play")
+    }
+
+
     return (
         <>
         <div className = "chat-body">
@@ -152,9 +160,9 @@ const ChatDisplay1 = () => {
             <Form className = "form">
             <Form.Group className="mb-3 send-message-form-box"   controlId="">
             <i class="far fa-grin-alt"></i>
-            <i class="fas fa-paperclip"></i>
-            <Form.Control type="text" className ="send-mesage-form"  placeholder="Type a message" />
-            <i class="fas fa-microphone"></i>
+            <i class= "fas fa-paperclip"></i>
+            <Form.Control type="text" className ="send-mesage-form" onChange = {handleIconChange}  placeholder="Type a message" />
+            <i class={microphoneicon}></i>
             
             </Form.Group>
 

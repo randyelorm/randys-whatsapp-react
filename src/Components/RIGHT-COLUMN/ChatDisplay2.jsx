@@ -1,126 +1,193 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./right.css"
+import Card from 'react-bootstrap/Card';
 
 
-
-import contactImg2 from "../../Images/2.jpg"
 import { CheckAll} from 'react-bootstrap-icons';
+import contactImg2 from "../../Images/2.jpg"
+
 import Form from 'react-bootstrap/Form';
 
 const ChatDisplay2 = () => {
+
+    const [microphoneicon2, setMicphoneIcon2] = useState( "fas fa-microphone")
+   
+    const handleIconChange2 = ()=> {
+        setMicphoneIcon2("fab fa-google-play")
+    }
+
     return (
 
    
-        <div  className = "chat-body">
-               
-                
-         <div class ="chat-heading">
-           <span class ="contact-img-name-last-seen">
-             <img src={contactImg2} class ="contact-img" alt="" />
-             <span>
-                <h4 class ="chat-contact-name">Mina</h4>
-                <span class ="last_seen">last seen today at 12:19</span>
-             </span>
-           
-         </span>
+        <div className = "chat-body">
 
-             <span className = "chat-display-heading-icons">
-             <i class="fas fa-video"></i>
-             <i class="fas fa-phone-alt"></i>
-             <i class="fas fa-search"></i>
-             <i class="fas fa-angle-down"></i>
-             </span>
+        <div class ="chat-heading">
+          <span class ="contact-img-name-last-seen">
+            <img src={contactImg2} class ="contact-img" alt="" />
+            <span>
+               <h4 class ="chat-contact-name">Mina</h4>
+               <span class ="last_seen">last seen today at 12:43</span>
+            </span>
+          
+        </span>
 
-         </div>
+            <span className = "chat-display-heading-icons">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-phone-alt"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-angle-down"></i>
+            </span>
 
-        <br />
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-            <span role="img">I can't stop laughing 😂😂😂 </span>  <br />
-               <span className = "text-time-stamp">11:15</span>
-            </div>
-        </div>
-        <div class="row">
-            
-            <div class="col-md-6 offset-md-6 each_text_sent">
-                
-                hahahaha😂😂😂<br />
-                <span className = "text-time-stamp">11:15 <CheckAll className = "received-check"/></span>
-            
-            </div>
-        </div>
-    <br />
-        <div class="col-md-6 offset-md-6 each_text_sent">
-                
-                I am going away 🏃 🏃 🏃 🏃 <br />
-                 <span className = "text-time-stamp">11:16 <CheckAll className = "received-check"/></span>
-             
-             </div>
-
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-               Oh 😂😂😂 <br />
-               <span className = "text-time-stamp">11:18</span>
-            </div>
-        </div>
-      
-        <br/>
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-               Please don't go <br />
-               <span className = "text-time-stamp">11:18</span>
-            </div>
-        </div>
-        <br/>
-       
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-               I will stop laughing<br />
-               <span className = "text-time-stamp">11:19</span>
-            </div>
         </div>
 
-        <br/>
-
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-               I will try to stop laughing  😂  <br />
-               <span className = "text-time-stamp">11:20</span>
-            </div>
-        </div>
        <br />
-
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-               Oh you left? 😂😂😂 <br />
-               <span className = "text-time-stamp">11:21</span>
-            </div>
-        </div>
-
-        <br />
-        <div class="row">
-            <div class="col-md-4 each_text_received">
-            😂😂😂😂😂 Come back<br />
-               <span className = "text-time-stamp">11:21</span>
-            </div>
-        </div>
-        
-             
-            <Form>
-            <Form.Group className="mb-3 send-message-form-box"   controlId="">
-            <i class="far fa-grin-alt"></i>
-            <i class="fas fa-paperclip"></i>
-            <Form.Control type="text" className ="send-mesage-form"  placeholder="Type a message" />
-            <i class="fas fa-microphone"></i>
+       <div class="row">
+      
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received first-text">
+           <Card.Body>
+   
+               <Card.Text>
+                Did you really do that? 😂  <br />
+               </Card.Text>
+               <span className = "text-time-stamp">10:15</span>
+           </Card.Body>
+           </Card>
             
-            </Form.Group>
+       </div>
+
+       <div class="row">
+       
+           <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+           <Card.Body>
+   
+               <Card.Text>
+               Yes please 😂<br />
+               </Card.Text>
+               <span className = "text-time-stamp">10:16<CheckAll className = "received-check"/></span>
+           </Card.Body>
+           </Card>
+           
+       </div>
+
+       <div class="row">
+        
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+           <Card.Body>
+   
+               <Card.Text>
+               Why did you do it 😂😂
+               </Card.Text>
+               <span className = "text-time-stamp">10:23</span>
+           </Card.Body>
+           </Card>
+           </div>
+      
 
 
-            </Form>
+       <div class="row">
+           <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+           <Card.Body>
+   
+               <Card.Text>
+                 I don't know 🤷‍♂️🤷‍♂️
+               </Card.Text>
+               <span className = "text-time-stamp">10:23<CheckAll className = "received-check"/></span>
+           </Card.Body>
+           </Card>
+       </div>
 
-             
-        </div>
 
+       <div class="row">
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+           <Card.Body>
+   
+               <Card.Text>
+               So what came over you?
+               </Card.Text>
+               <span className = "text-time-stamp">11:13</span>
+           </Card.Body>
+           </Card>
+       </div>
+
+        <br/>
+
+       <div class="row">
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+           <Card.Body>
+   
+               <Card.Text>
+              I can't stop laughing 😂😂😂😂
+               </Card.Text>
+               <span className = "text-time-stamp">11:14</span>
+           </Card.Body>
+           </Card>
+       </div>
+
+
+       <br/>
+
+
+       <div class="row">
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+           <Card.Body>
+   
+               <Card.Text>
+               Why are you offline😂😂
+               </Card.Text>
+               <span className = "text-time-stamp">11:19</span>
+           </Card.Body>
+           </Card>
+       </div>
+        
+        <br/>
+
+       <div class="row">
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+           <Card.Body>
+   
+               <Card.Text>
+               Mr. I don't know why 😂😂
+               </Card.Text>
+               <span className = "text-time-stamp">11:20</span>
+           </Card.Body>
+           </Card>
+       </div>
+        <br />
+       <div class="row">
+           <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received last-text ">
+           <Card.Body>
+   
+               <Card.Text>
+               😂😂😂😂😂 Come back here right now
+               </Card.Text>
+               <span className = "text-time-stamp">11:21</span>
+           </Card.Body>
+           </Card>
+       </div>
+
+
+
+      <br />
+
+  
+      
+   
+    
+
+     
+           <Form className = "form">
+           <Form.Group className="mb-3 send-message-form-box"   controlId="">
+           <i class="far fa-grin-alt"></i>
+           <i class="fas fa-paperclip"></i>
+           <Form.Control type="text" className ="send-mesage-form"  onChange = {handleIconChange2}   placeholder="Type a message" />
+           <i class={microphoneicon2}></i>
+           
+           </Form.Group>
+
+
+           </Form>
+
+       </div>
     );
 }
 

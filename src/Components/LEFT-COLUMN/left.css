@@ -35,9 +35,10 @@ color: #B1B3B5
 }
 
 
-.search-form::after {
+.search-form:focus {
     outline:none !important;
-    border:none !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 
 .contact-img {

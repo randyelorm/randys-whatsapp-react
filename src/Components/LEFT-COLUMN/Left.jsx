@@ -293,7 +293,7 @@ const Left = () => {
                                      11:21 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor2, display:notificationCount2, color:"black" }}>
-                                              6 
+                                              5 
                                          </span>
                                         
                                          <Dropdown>
@@ -324,7 +324,7 @@ const Left = () => {
 
                          <span className = "contactName-text-preview">
                                  <span>
-                                 <h5 className = "chat-name">Ella  <span role="img">💘💘</span> </h5>  
+                                 <h5 className = "chat-name">Ella💘💘</h5>  
                                  <p className = "text-preview">
                                  What do you think about it now?🧐🧐
                                          </p>
@@ -448,7 +448,7 @@ const Left = () => {
 
                          <span className = "contactName-text-preview-nd-timestamp">
                                  <span>
-                                 <h5 className = "chat-name">Mummy<span role="img">💞</span></h5>  
+                                 <h5 className = "chat-name">Mummy💞</h5>  
                                  <p className = "text-preview">
                                  Bring it along tonight okay?😂😂😂
                                          </p>
@@ -458,7 +458,7 @@ const Left = () => {
                                      11:51 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor6, display:notificationCount6, color:"black" }}>
-                                              3   
+                                              4 
                                          </span>
                                         
                                          <Dropdown>
@@ -492,7 +492,7 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Tim</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> Thank you. Let's about it soon.
+                                  Thank you. Let's about it soon 😎
                                          </p>
                                  </span>
                                
@@ -501,7 +501,7 @@ const Left = () => {
                                      12:01 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor7, display:notificationCount7, color:"black" }}>
-                                              4 
+                                              2
                                          </span>
                                         
                                          <Dropdown>
@@ -544,7 +544,7 @@ const Left = () => {
                                      12:19 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         <span className = "notification-count" style = {{backgroundColor: notificationColor8, display:notificationCount8, color:"black" }}>
-                                              8   
+                                              6  
                                          </span>
                                         
                                          <Dropdown>
@@ -577,7 +577,7 @@ const Left = () => {
                                  <span>
                                  <h5 className = "chat-name">Genevieve</h5>  
                                  <p className = "text-preview">
-                                 <CheckAll class = "received-check "/> See you soon😇😇😇😇😇😇😇
+                                 <CheckAll class = "unread-check"/> See you soon😇😇😇😇😇😇😇
                                          </p>
                                  </span>
                          </span>      
@@ -662,14 +662,14 @@ const Left = () => {
 
                          <span className = "contactName-text-preview-nd-timestamp">
                                  <span>
-                                 <h5 className = "chat-name">Auntie Yaa</h5>  
+                                 <h5 className = "chat-name">Aunt Yaa</h5>  
                                  <p className = "text-preview">
                                  <CheckAll class = "received-check "/> I don't want anyone to know😂.
                                          </p>
                                  </span>
                         </span>      
                                  <p class = "time-stamp">
-                                     06:19 <br /> 
+                                     14:23 <br /> 
                                     <span class ="time-stamp-dropdown">
                                         {/* <span className = "notification-count" style = {{backgroundColor: notificationColor11, display:notificationCount11, color:"black" }}>
                                               8   

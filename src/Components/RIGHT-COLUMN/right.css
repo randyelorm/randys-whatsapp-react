@@ -28,9 +28,11 @@
 }
 
 .chat-display-heading-icons {
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     gap:2rem !important;
+    
 }
 
 .contact-img-name-last-seen {

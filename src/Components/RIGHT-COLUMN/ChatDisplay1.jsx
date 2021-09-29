@@ -33,7 +33,7 @@ const ChatDisplay1 = () => {
         <br />
         <div class="row">
        
-            <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received">
+            <Card style={{ width: '18rem' }}  className="col-md-4 each_text_received first-text">
             <Card.Body>
     
                 <Card.Text>
@@ -127,11 +127,13 @@ const ChatDisplay1 = () => {
             </Card>
         </div>
 
+
+
        <br />
 
       
         <div class="row"> 
-           <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent " >
+           <Card style={{ width: '18rem' }}  className="col-md-6 offset-md-6 each_text_sent  last-text" >
             <Card.Body>
     
                 <Card.Text>
@@ -142,13 +144,12 @@ const ChatDisplay1 = () => {
             </Card>
         </div>
 
-     <br />
-     <br />
-     <br />
+       
+    
      
 
       
-            <Form>
+            <Form className = "form">
             <Form.Group className="mb-3 send-message-form-box"   controlId="">
             <i class="far fa-grin-alt"></i>
             <i class="fas fa-paperclip"></i>

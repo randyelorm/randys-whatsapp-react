@@ -183,4 +183,11 @@ hr {
 
 
 
+@media (max-width: 600px) {
+ 
+    body {
+     font-size: 0.5rem !important;
+    }
+    
+  }
 

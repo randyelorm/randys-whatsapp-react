@@ -1,3 +1,15 @@
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+  }
+  
+
+ 
+
+
+
 .chat-body {
     background:url("../../Images/background.jpeg");
     background-repeat: no-repeat;
@@ -182,3 +194,22 @@
     text-decoration: underline !important;
     color: #34AFE7 !important;
 }
+
+
+
+@media only screen and (max-width:768px) { 
+
+
+    .chat-body {
+        background:url("../../Images/background.jpeg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        color:white;
+        height:auto !important;
+        overflow-x: hidden;
+       
+       
+     
+        
+    }
+  }
